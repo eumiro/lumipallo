@@ -1,0 +1,13 @@
+2 deu Hallo Welt.
+4 deu Wie heißt du?
+6 deu Ich heiße Tom.
+8 deu Ich heiße nicht Tom.
+10 deu Mein Bruder heißt Tom.
+12 deu Mein Bruder heißt nicht Tom.
+14 deu Hallo Tom.
+16 deu Wie heißt dein Bruder?
+18 deu Ist Tom dein Bruder?
+20 deu Ja, Tom ist mein Bruder.
+22 deu Nein, Tom ist nicht mein Bruder.
+24 deu Ja, mein Bruder heißt Tom.
+26 deu Nein, mein Bruder heißt nicht Tom.
