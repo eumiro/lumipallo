@@ -1,0 +1,13 @@
+1 eng Hello world.
+3 eng What's your name?
+5 eng My name is Tom.
+7 eng My name is not Tom.
+9 eng My brother's name is Tom.
+11 eng My brother's name is not Tom.
+13 eng Hello Tom.
+15 eng What's your brother's name?
+17 eng Is Tom your brother?
+19 eng Yes, Tom is my brother.
+21 eng No, Tom is not my brother.
+23 eng Yes, my brother's name is Tom.
+25 eng No, my brother's name is not Tom.
