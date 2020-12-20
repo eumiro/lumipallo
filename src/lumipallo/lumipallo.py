@@ -42,7 +42,7 @@ def learn():
     target = 'deu'
     print(f'Learning language: {target!r}')
     snow = Snow(target)
-    snow.load(*list((Path(__file__).resolve().parents[2] / 'tests' / 'testdata').glob('01_*.txt')))
+    snow.load(*list(Path(__file__).with_name('testdata').glob('01_*.txt')))
 
     known_words = set()
     popularity = {word: i for i, (word, _) in enumerate(snow.most_common_words())}

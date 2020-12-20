@@ -4,7 +4,7 @@ import pytest
 
 from lumipallo import lumipallo as lp
 
-TESTDATA = Path(__file__).with_name('testdata')
+TESTDATA = Path(lp.__file__).with_name('testdata')
 
 
 @pytest.fixture
