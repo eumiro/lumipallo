@@ -92,9 +92,5 @@ if __name__ == "__main__":
         classifiers=CLASSIFIERS,
         install_requires=INSTALL_REQUIRES,
         extras_require={'test': ['pytest']},
-        options={
-            "bdist_wheel": {
-                "universal": "1"
-            }
-        },
+        options={},
     )
