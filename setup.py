@@ -94,4 +94,6 @@ if __name__ == "__main__":
         extras_require={'test': ['pytest']},
         options={},
         include_package_data=True,
+        entry_points={
+            "console_scripts": ["lumipallo = lumipallo.lumipallo:learn"]},
     )

@@ -38,11 +38,17 @@ Prototype
 
 The project is in the alpha stage, features may appear/disappear quickly.
 
+Install it:
+
+.. code::
+
+    pip install lumipallo
+
 Start it with:
 
 .. code::
 
-    python src/lumipallo/lumipallo.py
+    lumipallo
 
 In this first prototype there is little you can do, but this is just
 to show the principle and get in touch with people interested in trying
