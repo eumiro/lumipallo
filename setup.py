@@ -1,8 +1,11 @@
-import setuptools
+"""lumipallo setup
+"""
+
 from pathlib import Path
 
-long_description = Path('README.md').read_text()
+import setuptools
 
+long_description = Path('README.rst').read_text()
 
 setuptools.setup(
     name="lumipallo",
@@ -14,7 +17,7 @@ setuptools.setup(
         "test": ["pytest"]
     },
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/x-rst",
     install_requires=[],
     url="https://github.com/eumiro/lumipallo",
     packages=setuptools.find_packages(where='src'),
