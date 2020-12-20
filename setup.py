@@ -93,4 +93,5 @@ if __name__ == "__main__":
         install_requires=INSTALL_REQUIRES,
         extras_require={'test': ['pytest']},
         options={},
+        include_package_data=True,
     )
