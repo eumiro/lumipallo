@@ -1,9 +1,18 @@
-lumipallo: snowball effect in language learning
-===============================================
-
-
 .. image:: https://github.com/eumiro/lumipallo/workflows/CI/badge.svg
   :target: https://github.com/eumiro/lumipallo/actions?query=workflow%3ACI
+
+.. image:: https://img.shields.io/pypi/v/lumipallo.svg
+  :target: https://pypi.org/project/lumipallo/
+
+.. image:: https://img.shields.io/pypi/pyversions/lumipallo.svg
+  :target: https://pypi.org/project/lumipallo/
+
+.. image:: https://img.shields.io/github/license/eumiro/lumipallo
+  :target: https://github.com/eumiro/lumipallo/
+
+
+lumipallo: snowball effect in language learning
+===============================================
 
 
 **lumipallo** is the Finnish word for **snowball** (lumi = snow, pallo = ball).
