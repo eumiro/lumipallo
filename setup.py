@@ -13,7 +13,7 @@ CLASSIFIERS = [
     "Intended Audience :: Education",
     "Intended Audience :: End Users/Desktop",
     "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: BSD License",
+    "License :: OSI Approved :: MIT License",
     "Natural Language :: Afrikaans",
     "Natural Language :: Basque",
     "Natural Language :: Bosnian",
