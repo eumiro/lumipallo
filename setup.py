@@ -3,7 +3,8 @@ lumipallo setup.py
 """
 import re
 from pathlib import Path
-from setuptools import setup, find_packages
+
+from setuptools import find_packages, setup
 
 NAME = "lumipallo"
 KEYWORDS = ["language learning", "foreign languages"]
@@ -52,7 +53,7 @@ CLASSIFIERS = [
     "Natural Language :: Turkish",
     "Natural Language :: Ukrainian",
     "Natural Language :: Vietnamese",
-    'Operating System :: OS Independent',
+    "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
@@ -70,9 +71,10 @@ INSTALL_REQUIRES = []
 
 if __name__ == "__main__":
     HERE = Path(__file__).resolve().parent
-    META_FILE = (HERE / 'src' / NAME / '__init__.py').read_text()
+    META_FILE = (HERE / "src" / NAME / "__init__.py").read_text()
     META = dict(
-        re.findall(r"^__(\w+)__ = ['\"]([^'\"]*)['\"]", META_FILE, re.M))
+        re.findall(r"^__(\w+)__ = ['\"]([^'\"]*)['\"]", META_FILE, re.M)
+    )
     setup(
         name=NAME,
         description=META["description"],
@@ -91,9 +93,10 @@ if __name__ == "__main__":
         zip_safe=False,
         classifiers=CLASSIFIERS,
         install_requires=INSTALL_REQUIRES,
-        extras_require={'test': ['pytest']},
+        extras_require={"test": ["pytest"]},
         options={},
         include_package_data=True,
         entry_points={
-            "console_scripts": ["lumipallo = lumipallo.lumipallo:learn"]},
+            "console_scripts": ["lumipallo = lumipallo.lumipallo:learn"]
+        },
     )
