@@ -64,7 +64,7 @@ CLASSIFIERS = [
     "Topic :: Education",
     "Topic :: Education :: Computer Aided Instruction (CAI)",
 ]
-INSTALL_REQUIRES = []
+INSTALL_REQUIRES = ["xdg"]
 
 # --+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----
 
