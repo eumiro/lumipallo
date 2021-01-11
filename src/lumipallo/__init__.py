@@ -10,4 +10,4 @@ __author__ = "Miroslav Šedivý"
 __email__ = "eumiro@gmail.com"
 
 __license__ = "MIT"
-__copyright__ = "Copyright (c) 2020 Miroslav Šedivý"
+__copyright__ = "Copyright (c) 2020–2021 Miroslav Šedivý"
