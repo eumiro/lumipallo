@@ -65,7 +65,7 @@ CLASSIFIERS = [
     "Topic :: Education",
     "Topic :: Education :: Computer Aided Instruction (CAI)",
 ]
-INSTALL_REQUIRES = ["xdg"]
+INSTALL_REQUIRES = ["python-dateutil", "requests", "xdg"]
 
 # --+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----
 
@@ -94,7 +94,7 @@ if __name__ == "__main__":
         zip_safe=False,
         classifiers=CLASSIFIERS,
         install_requires=INSTALL_REQUIRES,
-        extras_require={"test": ["pytest"]},
+        extras_require={"test": ["pytest", "coverage", "requests-mock"]},
         options={},
         include_package_data=True,
         entry_points={
